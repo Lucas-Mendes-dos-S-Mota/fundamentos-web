@@ -1,9 +1,15 @@
 /*Estilos da página index.html*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 .center{
+    text-align: center;
+    font-size: 40px;
+}
+.center1{
     text-align: center;
 }
 .justify{
     text-align: justify;
+    font-size: 28px;
 }
 .container{
     display: flex;
@@ -14,6 +20,7 @@
 #menu li {
     display: inline;
     padding: 15px;
+    font-family: 'Bangers', cursive;
 }
 #menu li a{
     text-decoration: none;
@@ -30,12 +37,12 @@
     border-radius: 50%;
 }
 .wh-600{
-    width: 700px;
-     height: 500px; ;
+    width: 35vw;
+     aspect-ratio: 3/2;
 }
 .wh-500{
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    aspect-ratio: 1;
 }
 .tm-social{
     width: 50px;
@@ -47,8 +54,12 @@
 .ml-50{
     margin-left: 50px;
 }
-
-
+body{
+    background-color: rgb(153, 187, 217);
+}
+h1,h2,h3{
+    font-family: 'Bangers', cursive;
+}
 
 
 
